@@ -102,6 +102,8 @@ public class Login extends JFrame implements ActionListener{
 			pinText.setText("");
 			
 		}else if (ae.getSource() == signup) {
+			setVisible(false); // hide login page
+		    new Signup(); 
 			
 		}else if (ae.getSource() == login){
 			
