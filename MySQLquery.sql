@@ -24,12 +24,8 @@ select * from signuptwo;
 
 truncate table signuptwo;
 
-create table signupthree (
-    Form_no varchar(20),
-    Security_Q varchar(100),
-    Security_Ans varchar(50),
-    Initial_Deposit varchar(20)
-);
+create table signupthree(form_no varchar(20), account_type varchar(20), card_no varchar(20), pin varchar(20), facility varchar(20) );
+
 
 select * from signupthree;
 
